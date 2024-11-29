@@ -1,0 +1,18 @@
+#main .breadcrumbs a {
+  color: #293676;
+  background-color: #293676;
+  border-radius: 4px;
+  :link {
+    color: inherit;
+  }
+  :hover {
+    background-color: #00b4c1;
+    border-radius: 4px;
+  }
+  :active {
+    color: inherit;
+  }
+  :visited {
+    color: inherit;
+  }
+}

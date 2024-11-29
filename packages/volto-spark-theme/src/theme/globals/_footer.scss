@@ -1,0 +1,16 @@
+#footer {
+  margin-top: 0;
+  text-align: center;
+
+  .footer {
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    .logo {
+      margin: 1rem 0 1rem 0;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}

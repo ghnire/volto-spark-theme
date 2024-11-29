@@ -1,0 +1,17 @@
+.block.relatedItems {
+  .inner-container {
+    background: var(--theme-high-contrast-color);
+    padding: 3rem;
+
+    h2.headline {
+      color: var(--primary-foreground-color);
+    }
+
+    ul.items-list {
+      color: var(--primary-foreground-color);
+      li a {
+        color: var(--link-foreground-color);
+      }
+    }
+  }
+}
