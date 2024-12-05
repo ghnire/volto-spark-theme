@@ -1,9 +1,9 @@
 .sph-home-news {
   .listing-body p {
+    border-radius: 5px;
+    background: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 0.9rem !important;
-    background: white;
-    border-radius: 5px;
   }
 }
 .sph-home-events {
@@ -11,48 +11,48 @@
   div {
   }
   #events {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0.5px solid #00b4c1;
+    border-radius: 5px;
+    margin-bottom: 10px;
     background: linear-gradient(
       90deg,
       rgba(41, 54, 118, 1) 0%,
       rgba(30, 98, 156, 1) 45%,
       rgba(0, 212, 255, 1) 100%
     );
-    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: white;
     font-weight: 700;
-    border: 0.5px solid #00b4c1;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    text-align: center;
   }
   .listing-item {
+    padding-bottom: 0px !important;
+    border-bottom: 0px !important;
     margin-top: 5px;
     margin-bottom: 25px !important;
-    border-bottom: 0px !important;
-    padding-bottom: 0px !important;
     background: white;
-    text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
     .listing-body h2 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: white;
       color: #5e6a72 !important;
       //color: #000 !important;
       font-size: 1.1rem !important;
-      background: white;
-      margin-bottom: 5px;
-      margin-top: 5px;
     }
     .listing-body p {
-      font-size: 0.9rem !important;
-      background: white;
       border-top: 2px solid #00b4c1;
+      background: white;
+      font-size: 0.9rem !important;
     }
   }
 }
 
 .sparkblue {
   .card-container {
-    box-shadow: 2px 2px 2px 3px #091656;
     background: #293676 !important;
+    box-shadow: 2px 2px 2px 3px #091656;
     .item {
       background: #293676 !important;
       box-shadow: none !important;

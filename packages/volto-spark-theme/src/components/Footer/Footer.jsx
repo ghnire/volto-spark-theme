@@ -10,13 +10,6 @@ import { Container } from '@plone/components';
 import { flattenToAppURL, addAppURL } from '@plone/volto/helpers/Url/Url';
 import config from '@plone/volto/registry';
 
-const messages = defineMessages({
-  copyright: {
-    id: 'Copyright',
-    defaultMessage: 'Copyright',
-  },
-});
-
 /**
  * Component to display the footer.
  * @function Footer

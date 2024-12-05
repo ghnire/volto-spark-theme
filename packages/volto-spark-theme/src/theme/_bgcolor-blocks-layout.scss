@@ -165,8 +165,8 @@
       }
 
       .listing-item {
-        border-bottom-color: var(--theme-foreground-color) !important;
         padding-bottom: 0px !important;
+        border-bottom-color: var(--theme-foreground-color) !important;
 
         a > .listing-body {
           h3,
@@ -694,11 +694,11 @@
       }
       .column > .slate,
       .grid-items .slate:not(.inner) {
-        background-color: var(--theme-high-contrast-color);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         //box-shadow: 5px 5px 10px #aaaaaa;
         //border: 0.5px solid #bbbbbb;
         border-radius: 5px;
+        background-color: var(--theme-high-contrast-color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         & > * {
           color: var(--theme-foreground-color);
         }
