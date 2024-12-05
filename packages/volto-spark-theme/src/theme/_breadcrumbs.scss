@@ -1,18 +1,41 @@
-#main .breadcrumbs a {
-  border-radius: 4px;
-  background-color: #293676;
-  color: #293676;
-  :link {
-    color: inherit;
+body.contenttype-plone-site,
+body.contenttype-lrf,
+body.view-contentsview {
+  #main .breadcrumbs {
+    display: flex;
+    .icon {
+      visibility: hidden;
+    }
   }
-  :hover {
+}
+
+#main .breadcrumbs {
+  .icon {
     border-radius: 4px;
     background-color: #00b4c1;
   }
-  :active {
-    color: inherit;
+  a {
+    --link-foreground-color: #293676;
+    text-decoration: none;
   }
-  :visited {
-    color: inherit;
+  a:hover {
+    font-weight: 700;
+    color: #00b4c1;
+  }
+  .section {
+    &.link {
+      color: #293676;
+      text-decoration: none;
+    }
+    &.hover {
+      color: #00b4c1;
+    }
+    &.active {
+      color: #293676;
+      font-weight: 700;
+    }
+    &.visited {
+      color: #293676;
+    }
   }
 }
