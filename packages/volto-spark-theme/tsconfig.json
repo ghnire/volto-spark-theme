@@ -17,7 +17,7 @@
       "volto-spark-theme/*": ["./src/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "src"],
   "exclude": [
     "node_modules",
     "build",

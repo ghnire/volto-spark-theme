@@ -1,0 +1,14 @@
+.section-afdelingen {
+  .listing-item {
+    img {
+      width: auto !important;
+      height: 50px !important;
+      margin: 10px !important;
+    }
+    .listing-body {
+      p {
+        display: none;
+      }
+    }
+  }
+}

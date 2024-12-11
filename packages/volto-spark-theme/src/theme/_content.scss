@@ -1,4 +1,64 @@
-.blocks-group-wrapper {
-  border-top: 5px solid #293676;
-  background-color: white;
+.sph-home-news {
+  .listing-body p {
+    border-radius: 5px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 0.9rem !important;
+  }
+}
+.sph-home-events {
+  padding-left: 20px;
+  div {
+  }
+  #events {
+    border: 0.5px solid #00b4c1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(
+      90deg,
+      rgba(41, 54, 118, 1) 0%,
+      rgba(30, 98, 156, 1) 45%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+  }
+  .listing-item {
+    padding-bottom: 0px !important;
+    border-bottom: 0px !important;
+    margin-top: 5px;
+    margin-bottom: 25px !important;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    .listing-body h2 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background: white;
+      color: #5e6a72 !important;
+      //color: #000 !important;
+      font-size: 1.1rem !important;
+    }
+    .listing-body p {
+      border-top: 2px solid #00b4c1;
+      background: white;
+      font-size: 0.9rem !important;
+    }
+  }
+}
+
+.sparkblue {
+  .card-container {
+    background: #293676 !important;
+    box-shadow: 2px 2px 2px 3px #091656;
+    .item {
+      background: #293676 !important;
+      box-shadow: none !important;
+      p {
+        box-shadow: none !important;
+      }
+    }
+  }
 }
