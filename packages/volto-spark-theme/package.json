@@ -1,5 +1,5 @@
 {
-  "name": "volto-spark-theme",
+  "name": "@sphnl/volto-spark-theme",
   "version": "1.0.0-alpha.2",
   "description": "SPH theme based on VLT",
   "main": "src/index.js",
