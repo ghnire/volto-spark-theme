@@ -1,6 +1,6 @@
 {
   "name": "@sphnl/volto-spark-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SPH theme based on VLT",
   "main": "src/index.js",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "dependencies": {
-    "@kitconcept/volto-light-theme": "^6.0.0-alpha.2",
+    "@kitconcept/volto-light-theme": "^5.0.2"
   },
   "peerDependencies": {
     "react": "18.2.0",
